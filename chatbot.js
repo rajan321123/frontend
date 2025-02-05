@@ -1,5 +1,5 @@
 function sendMessage(message) {
-    fetch("https://your-chatbot-api.onrender.com/chat", {
+    fetch("https://widget-1.onrender.comt", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: message })
